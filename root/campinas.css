@@ -1,0 +1,84 @@
+
+
+
+  body {
+    background-color: #7e95f8;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana,
+      sans-serif;
+    line-height: 1.1;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 960px;
+  }
+
+  h1 a {
+    color: #3e4095;
+    text-decoration: none;
+  }
+
+  h1 a:hover {
+    background-color: #3e4095;
+    color: #fff212;
+  }
+
+  .places {
+    float: left;
+    width: 660px;
+  }
+
+  .place {
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid rgba(255, 99, 71, 0.5);
+    border-left: 6px solid rgba(255, 99, 71, 0.5);
+    border-style: ridge;
+    margin-bottom: 20px;
+    padding: 10px;
+    clear: both;
+  }
+
+ img {
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+  }
+  
+
+  .place h2 {
+    border: 1px dashed #2957A4;
+    border-style: ridge;
+    margin: 0;
+  }
+
+  .place a .sidenote ol li a{
+    color: #2957A4;
+    font-weight: bold;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .sidenote {
+    background-color: hsla(231, 23%, 94%, 0.74);
+    border: 1px solid rgba(255, 99, 71, 0.5);
+    float: right;
+    padding: 10px;
+    width: 260px;
+  }
+
+    .sidenote h3 {
+      font-size: 14px;
+      margin-top: 0;
+    }
+    
+    .sidenote ol {
+      font-size: 12px;
+    }
+
+  .footer {
+    border-top: 1px solid rgba(255, 99, 71, 0.5);
+    font-size: 14px;
+    text-align: center;
+  }
